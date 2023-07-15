@@ -12,7 +12,7 @@ const appConfig: AppConfig = {
   title: '能为管理系统',
   logo: '@/assets/img/logo.png',
   showSetting: true,
-  needLogin: false,
+  needLogin: true,
   whiteRouteName: ['login']
 }
 

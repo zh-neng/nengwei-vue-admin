@@ -16,7 +16,7 @@ vue3 + vite + element plus + unocss
 
 ### 使用说明
 
-预览: [在线 demo](https://zh-neng.gitee.io/)
+预览: [在线 demo](https://zh-neng.gitee.io/nengwei-vue-admin)
 
 1. xxxx
 2. xxxx

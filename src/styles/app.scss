@@ -1,0 +1,61 @@
+$bg:#f4f4f4;
+:root {
+  --primary-color: #316c72;
+  --dark-bg: #18181c;
+}
+
+
+html,
+body,
+#app {
+  height: 100%;margin: 0;padding: 0;
+}
+
+html.dark {
+  background: var(--dark-bg);
+  .el-button--primary {
+    --el-button-text-color: #ededed;
+  }
+} 
+
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: rgb(13, 148, 136);
+  opacity: 0.75;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+/* 滚动条宽度 */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* 滚动条轨道 */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* 小滑块 */
+::-webkit-scrollbar-thumb {
+  background: #0003;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0000004d;
+}
+
+:focus-visible {
+      outline: none;
+}

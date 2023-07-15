@@ -1,0 +1,26 @@
+{
+  "extends": ["@antfu","@unocss", "./.eslintrc-auto-import.json"],
+  "rules": {
+    "vue/component-tags-order": ["error", {
+      "order": ["template", "script", "style", "route"]
+    }],
+    "no-debugger": "off",
+    "no-restricted-syntax": "off",
+    "no-console": "off",
+    "no-unused-vars": "off",
+    "comma-dangle": [2, "never"], 
+    "unused-imports/no-unused-vars": "off",
+    "@typescript-eslint/comma-dangle": "off",
+    "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+    "@typescript-eslint/brace-style": ["error", "1tbs", { "allowSingleLine": false }],
+    "@typescript-eslint/no-use-before-define": "off",
+    "curly": ["error", "all"],
+    "@typescript-eslint/no-this-alias": [
+      "error",
+      {
+        "allowDestructuring": false, // Disallow `const { props, state } = this`; true by default
+        "allowedNames": ["self"] // Allow `const self = this`; `[]` by default
+      }
+    ]
+  }
+}

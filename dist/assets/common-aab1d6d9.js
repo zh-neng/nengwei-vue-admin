@@ -1,0 +1,1 @@
+import{_ as o,b as n}from"./manifest-ac152b7a.js";import{r as s,o as t,h as r}from"./vendor-d68c7ef7.js";import"./vendor1-d173802d.js";const e={name:"common"};"function"==typeof n&&n(e);const a=o(e,[["render",function(o,n){const e=s("custom-alive");return t(),r(e)}]]);export{a as default};

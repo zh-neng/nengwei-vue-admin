@@ -1,0 +1,1 @@
+import{_ as s,b as o}from"./manifest-ac152b7a.js";import{o as r,v as e}from"./vendor-d68c7ef7.js";import"./vendor1-d173802d.js";const n={name:"user"},t={class:"h-10000px"};"function"==typeof o&&o(n);const a=s(n,[["render",function(s,o){return r(),e("div",t," user ")}]]);export{a as default};

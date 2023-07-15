@@ -1,0 +1,1 @@
+import{_ as o,b as n}from"./manifest-ac152b7a.js";import{o as t,v as e,y as s}from"./vendor-d68c7ef7.js";import"./vendor1-d173802d.js";const r={name:"demo-common-table-table01"},a={class:"h-10000px bg-red"},m=[s("input",null,null,-1)];"function"==typeof n&&n(r);const i=o(r,[["render",function(o,n){return t(),e("div",a,m)}]]);export{i as default};

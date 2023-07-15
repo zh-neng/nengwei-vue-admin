@@ -1,0 +1,1 @@
+import{d as o,b as e}from"./manifest-ac152b7a.js";import{g as m,o as a,h as s}from"./vendor-d68c7ef7.js";import"./vendor1-d173802d.js";const t=m({name:"demo-common-table",__name:"demo-common-table",setup:e=>(e,m)=>(a(),s(o,{lever:1}))});"function"==typeof e&&e(t);export{t as default};
